@@ -3,6 +3,7 @@ package com.sooriya;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+//@Qualifier used above setter method - setter injection 
 @Component
 public class CricketCoach implements Coach {
 
